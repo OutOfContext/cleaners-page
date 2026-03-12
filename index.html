@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Glänzende Sauberkeit – professioneller Reinigungsservice für Büros und Privathaushalte. Zuverlässig, umweltfreundlich und flexibel." />
+  <title>Glänzende Sauberkeit – Professioneller Reinigungsservice</title>
+
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ========== NAVIGATION ========== -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+
+      <!-- Logo -->
+      <a href="#home" class="logo" aria-label="Zur Startseite">
+        <!-- Sparkle icon inline SVG -->
+        <svg class="logo-icon" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M16 2 L18 14 L30 16 L18 18 L16 30 L14 18 L2 16 L14 14 Z" fill="currentColor"/>
+        </svg>
+        Glänzende Sauberkeit
+      </a>
+
+      <!-- Desktop navigation links -->
+      <nav aria-label="Hauptnavigation">
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#leistungen" class="nav-link">Leistungen</a></li>
+          <li><a href="#unternehmen" class="nav-link">Unternehmen</a></li>
+          <li><a href="#bewertungen" class="nav-link">Bewertungen</a></li>
+          <li><a href="#kontakt" class="nav-link nav-cta">Kontakt</a></li>
+        </ul>
+      </nav>
+
+      <!-- Mobile hamburger button -->
+      <button class="hamburger" id="hamburger" aria-label="Menü öffnen" aria-expanded="false" aria-controls="nav-links">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ========== HERO SECTION ========== -->
+    <section class="hero" id="home" aria-label="Hero">
+      <div class="hero-overlay" aria-hidden="true"></div>
+
+      <!-- Hero background placeholder image -->
+      <div class="hero-bg" aria-hidden="true">
+        <img
+          src="images/hero-bg.jpg"
+          alt=""
+          class="hero-img"
+          onerror="this.src='images/hero-bg.svg'"
+        />
+      </div>
+
+      <div class="container hero-content">
+        <span class="hero-badge">✦ Professioneller Reinigungsservice</span>
+        <h1 class="hero-title">
+          Glänzende Sauberkeit für Ihr<br />
+          <span class="hero-highlight">Zuhause &amp; Unternehmen</span>
+        </h1>
+        <p class="hero-sub">
+          Wir sorgen für makellose Sauberkeit – zuverlässig, gründlich und mit
+          umweltfreundlichen Reinigungsmitteln. Vertrauen Sie auf unser
+          erfahrenes Team für ein strahlendes Ergebnis.
+        </p>
+        <div class="hero-buttons">
+          <a href="#kontakt" class="btn btn-primary">Angebot anfordern</a>
+          <a href="#kontakt" class="btn btn-secondary">Termin anfragen</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SERVICES SECTION ========== -->
+    <section class="services section" id="leistungen" aria-labelledby="services-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Unsere Leistungen</span>
+          <h2 id="services-heading" class="section-title">Was wir für Sie tun</h2>
+          <p class="section-sub">
+            Von der regelmäßigen Unterhaltsreinigung bis zur intensiven
+            Grundreinigung – wir bieten maßgeschneiderte Lösungen.
+          </p>
+        </div>
+
+        <div class="services-grid">
+
+          <!-- Card: Büroreinigung -->
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="8" y="14" width="32" height="24" rx="2" stroke="currentColor" stroke-width="2.5" fill="none"/>
+                <path d="M16 14V10h16v4" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                <path d="M24 22v8M20 26h8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3 class="service-title">Büroreinigung</h3>
+            <p class="service-desc">
+              Saubere Arbeitsplätze steigern die Produktivität. Wir reinigen
+              Büros, Konferenzräume und Gemeinschaftsbereiche – diskret und
+              nach Ihrem Zeitplan.
+            </p>
+            <a href="#kontakt" class="service-link">Mehr erfahren →</a>
+          </article>
+
+          <!-- Card: Haushaltsreinigung -->
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10 22L24 10l14 12V38H10V22Z" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linejoin="round"/>
+                <rect x="19" y="28" width="10" height="10" rx="1" stroke="currentColor" stroke-width="2.5" fill="none"/>
+              </svg>
+            </div>
+            <h3 class="service-title">Haushaltsreinigung</h3>
+            <p class="service-desc">
+              Genießen Sie ein sauberes Zuhause ohne den Aufwand. Unsere
+              vertrauenswürdigen Reinigungskräfte kümmern sich um jede Ecke
+              Ihres Hauses.
+            </p>
+            <a href="#kontakt" class="service-link">Mehr erfahren →</a>
+          </article>
+
+          <!-- Card: Fensterreinigung -->
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="8" y="8" width="32" height="32" rx="2" stroke="currentColor" stroke-width="2.5" fill="none"/>
+                <path d="M8 24h32M24 8v32" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                <path d="M14 14l4 4" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3 class="service-title">Fensterreinigung</h3>
+            <p class="service-desc">
+              Streifenfreie, glänzende Fenster für mehr Licht und ein besseres
+              Erscheinungsbild – innen und außen, in jeder Höhe.
+            </p>
+            <a href="#kontakt" class="service-link">Mehr erfahren →</a>
+          </article>
+
+          <!-- Card: Grundreinigung -->
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 38c0-8 4-14 12-18" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                <circle cx="28" cy="16" r="6" stroke="currentColor" stroke-width="2.5" fill="none"/>
+                <path d="M32 22l6 8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                <path d="M10 38h28" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3 class="service-title">Grundreinigung</h3>
+            <p class="service-desc">
+              Intensive Tiefenreinigung für Neuanfänge – nach Umzügen,
+              Renovierungen oder einfach wenn es Zeit für einen kompletten
+              Neustart ist.
+            </p>
+            <a href="#kontakt" class="service-link">Mehr erfahren →</a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== WHY CHOOSE US ========== -->
+    <section class="why-us section" id="unternehmen" aria-labelledby="why-heading">
+      <div class="container why-us-inner">
+
+        <div class="why-us-text">
+          <span class="section-badge">Warum wir?</span>
+          <h2 id="why-heading" class="section-title">Ihr Vertrauen ist unser Antrieb</h2>
+          <p class="section-sub">
+            Bei Glänzende Sauberkeit steht Qualität und Zuverlässigkeit an
+            erster Stelle. Erfahren Sie, was uns auszeichnet.
+          </p>
+
+          <ul class="why-list" role="list">
+            <li class="why-item">
+              <span class="why-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12 2L3 7v5c0 5.25 3.75 10.15 9 11.35C17.25 22.15 21 17.25 21 12V7l-9-5Z" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linejoin="round"/>
+                  <path d="M8 12l2.5 2.5L16 9" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </span>
+              <div>
+                <strong>Versicherte Mitarbeiter</strong>
+                <p>Alle unsere Reinigungskräfte sind vollständig versichert und sorgfältig geprüft.</p>
+              </div>
+            </li>
+
+            <li class="why-item">
+              <span class="why-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12 3C7.5 3 4 6.5 4 11c0 2.5 1 4.7 2.7 6.3L12 21l5.3-3.7C19 15.7 20 13.5 20 11c0-4.5-3.5-8-8-8Z" stroke="currentColor" stroke-width="1.8" fill="none"/>
+                  <path d="M12 8v3l2 2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+                </svg>
+              </span>
+              <div>
+                <strong>Umweltfreundliche Reinigungsmittel</strong>
+                <p>Wir verwenden ausschließlich ökologische Produkte, die schonend für Mensch und Natur sind.</p>
+              </div>
+            </li>
+
+            <li class="why-item">
+              <span class="why-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect x="3" y="4" width="18" height="18" rx="2" stroke="currentColor" stroke-width="1.8" fill="none"/>
+                  <path d="M3 9h18M8 2v4M16 2v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+                  <path d="M8 14h4M8 17h8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+                </svg>
+              </span>
+              <div>
+                <strong>Flexible Termine</strong>
+                <p>Wir passen uns Ihrem Zeitplan an – morgens, abends oder am Wochenende.</p>
+              </div>
+            </li>
+
+            <li class="why-item">
+              <span class="why-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8" fill="none"/>
+                  <path d="M8 12l2.5 2.5L16 8.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </span>
+              <div>
+                <strong>Zufriedenheitsgarantie</strong>
+                <p>Nicht zufrieden? Wir kommen kostenlos zurück, bis das Ergebnis perfekt ist.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="why-us-visual" aria-hidden="true">
+          <div class="stats-card">
+            <div class="stat">
+              <span class="stat-number">500+</span>
+              <span class="stat-label">Zufriedene Kunden</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">10+</span>
+              <span class="stat-label">Jahre Erfahrung</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">100%</span>
+              <span class="stat-label">Garantierte Qualität</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">50+</span>
+              <span class="stat-label">Ausgebildete Mitarbeiter</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========== TESTIMONIALS ========== -->
+    <section class="testimonials section" id="bewertungen" aria-labelledby="testimonials-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Kundenstimmen</span>
+          <h2 id="testimonials-heading" class="section-title">Was unsere Kunden sagen</h2>
+          <p class="section-sub">
+            Echte Erfahrungen von Menschen, die uns ihr Zuhause und ihre
+            Geschäftsräume anvertrauen.
+          </p>
+        </div>
+
+        <div class="testimonials-grid">
+
+          <article class="testimonial-card">
+            <div class="stars" aria-label="5 von 5 Sternen">
+              <span aria-hidden="true">★★★★★</span>
+            </div>
+            <blockquote>
+              <p>
+                „Absolut top! Unser Büro glänzt wie nie zuvor. Das Team ist
+                pünktlich, diskret und arbeitet sehr gründlich. Wir buchen
+                regelmäßig und sind jedes Mal begeistert."
+              </p>
+            </blockquote>
+            <footer class="testimonial-author">
+              <div class="author-avatar" aria-hidden="true">MK</div>
+              <div>
+                <strong>Maria Kellner</strong>
+                <span>Geschäftsführerin, München</span>
+              </div>
+            </footer>
+          </article>
+
+          <article class="testimonial-card testimonial-featured">
+            <div class="stars" aria-label="5 von 5 Sternen">
+              <span aria-hidden="true">★★★★★</span>
+            </div>
+            <blockquote>
+              <p>
+                „Nach dem Umzug haben wir die Grundreinigung in Anspruch
+                genommen – unfassbar, wie sauber die Wohnung hinterher war.
+                Wirklich jeder Winkel wurde berücksichtigt!"
+              </p>
+            </blockquote>
+            <footer class="testimonial-author">
+              <div class="author-avatar" aria-hidden="true">TM</div>
+              <div>
+                <strong>Thomas Müller</strong>
+                <span>Privathaushalt, Hamburg</span>
+              </div>
+            </footer>
+          </article>
+
+          <article class="testimonial-card">
+            <div class="stars" aria-label="5 von 5 Sternen">
+              <span aria-hidden="true">★★★★★</span>
+            </div>
+            <blockquote>
+              <p>
+                „Faire Preise, freundliches Team und exzellente Ergebnisse.
+                Die Fenster sind streifenfrei und ich bin so glücklich mit dem
+                Service. Sehr empfehlenswert!"
+              </p>
+            </blockquote>
+            <footer class="testimonial-author">
+              <div class="author-avatar" aria-hidden="true">SB</div>
+              <div>
+                <strong>Sandra Bauer</strong>
+                <span>Privathaushalt, Berlin</span>
+              </div>
+            </footer>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CONTACT SECTION ========== -->
+    <section class="contact section" id="kontakt" aria-labelledby="contact-heading">
+      <div class="container contact-inner">
+
+        <div class="contact-info">
+          <span class="section-badge">Kontakt</span>
+          <h2 id="contact-heading" class="section-title">Nehmen Sie Kontakt auf</h2>
+          <p class="section-sub">
+            Haben Sie Fragen oder möchten Sie ein unverbindliches Angebot?
+            Wir freuen uns auf Ihre Nachricht!
+          </p>
+
+          <div class="contact-details">
+            <div class="contact-detail">
+              <span class="contact-detail-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.83 11.5 19.79 19.79 0 01.77 2.9 2 2 0 012.75 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L7.09 8.55a16 16 0 006.29 6.29l1.27-.87a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92Z" stroke="currentColor" stroke-width="1.8" fill="none"/>
+                </svg>
+              </span>
+              <span>+49 (0) 123 456 789</span>
+            </div>
+            <div class="contact-detail">
+              <span class="contact-detail-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2Z" stroke="currentColor" stroke-width="1.8" fill="none"/>
+                  <path d="M22 6l-10 7L2 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+                </svg>
+              </span>
+              <span>info@glaenzende-sauberkeit.de</span>
+            </div>
+            <div class="contact-detail">
+              <span class="contact-detail-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0118 0Z" stroke="currentColor" stroke-width="1.8" fill="none"/>
+                  <circle cx="12" cy="10" r="3" stroke="currentColor" stroke-width="1.8" fill="none"/>
+                </svg>
+              </span>
+              <span>Musterstraße 1, 80331 München</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-form-wrapper">
+          <form class="contact-form" id="contact-form" novalidate aria-label="Kontaktformular">
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Name <span class="required" aria-hidden="true">*</span></label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Ihr vollständiger Name"
+                  required
+                  autocomplete="name"
+                />
+                <span class="form-error" id="name-error" role="alert" aria-live="polite"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="email">E-Mail <span class="required" aria-hidden="true">*</span></label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="ihre@email.de"
+                  required
+                  autocomplete="email"
+                />
+                <span class="form-error" id="email-error" role="alert" aria-live="polite"></span>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="phone">Telefonnummer</label>
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                placeholder="+49 (0) 123 456 789"
+                autocomplete="tel"
+              />
+              <span class="form-error" id="phone-error" role="alert" aria-live="polite"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Nachricht <span class="required" aria-hidden="true">*</span></label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                placeholder="Beschreiben Sie Ihr Anliegen oder welche Leistung Sie benötigen..."
+                required
+              ></textarea>
+              <span class="form-error" id="message-error" role="alert" aria-live="polite"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-full">
+              Nachricht absenden
+            </button>
+
+            <!-- Success message (hidden by default) -->
+            <div class="form-success" id="form-success" role="status" aria-live="polite" hidden>
+              ✓ Ihre Nachricht wurde erfolgreich gesendet! Wir melden uns bald bei Ihnen.
+            </div>
+
+          </form>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer" role="contentinfo">
+    <div class="container footer-inner">
+
+      <div class="footer-brand">
+        <a href="#home" class="logo footer-logo" aria-label="Zur Startseite">
+          <svg class="logo-icon" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M16 2 L18 14 L30 16 L18 18 L16 30 L14 18 L2 16 L14 14 Z" fill="currentColor"/>
+          </svg>
+          Glänzende Sauberkeit
+        </a>
+        <p>Professioneller Reinigungsservice für Privat und Gewerbe – zuverlässig, gründlich und umweltbewusst.</p>
+      </div>
+
+      <nav class="footer-nav" aria-label="Footer-Navigation">
+        <h3>Schnellzugriff</h3>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#leistungen">Leistungen</a></li>
+          <li><a href="#unternehmen">Unternehmen</a></li>
+          <li><a href="#bewertungen">Bewertungen</a></li>
+          <li><a href="#kontakt">Kontakt</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer-contact">
+        <h3>Kontakt</h3>
+        <p>+49 (0) 123 456 789</p>
+        <p>info@glaenzende-sauberkeit.de</p>
+        <p>Musterstraße 1<br />80331 München</p>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p>© <span id="year"></span> Glänzende Sauberkeit. Alle Rechte vorbehalten.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

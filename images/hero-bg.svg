@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" width="1200" height="680">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0c2d6b"/>
+      <stop offset="50%" style="stop-color:#1a56db"/>
+      <stop offset="100%" style="stop-color:#0ea5e9"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="680" fill="url(#bg)"/>
+  <!-- Simple sparkle shapes for visual interest -->
+  <circle cx="200" cy="120" r="80" fill="rgba(255,255,255,0.04)"/>
+  <circle cx="1050" cy="500" r="130" fill="rgba(255,255,255,0.04)"/>
+  <circle cx="950" cy="80"  r="55"  fill="rgba(255,255,255,0.04)"/>
+  <circle cx="100" cy="550" r="100" fill="rgba(255,255,255,0.03)"/>
+</svg>
